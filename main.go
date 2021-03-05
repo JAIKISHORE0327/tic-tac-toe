@@ -34,7 +34,7 @@ func main() {
 	}
 	PrintBoard(game.board)
 	if winner == "" {
-		fmt.Println("it's a draw ")
+		fmt.Println("The Game is Draw ")
 	} else {
 		fmt.Printf("User %s is winner ", winner)
 	}
